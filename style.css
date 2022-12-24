@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background:url(https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.error
+{
+    background-color: rgb(86, 125, 149);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 247, 247);
+    border-radius: 10px;
+    padding: 25px;
+    border:solid 3px rgb(7, 66, 95);
+}
+.form{
+    background-color: rgb(127, 160, 176);
+    padding:20px;
+    box-shadow:5px 40px 90px rgb(144, 164, 180);
+    border-radius: 10px;
+    border:solid 4px rgb(48, 79, 94);
+    margin: 10px;
+
+
+}
+.input{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding:10px;
+    border:solid 4px rgb(40, 15, 88);
+    color:rgb(40, 15, 88) ;
+}
+.input::placeholder{
+    color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bn{
+background-color:rgb(29, 68, 93) ;
+color:whitesmoke;
+display:block;
+width:100%;
+padding:10px;
+font-size:20px;
+font-family:Arial, Helvetica, sans-serif;
+margin:20px 0;
+border-radius: 5px;
+box-shadows:0 2px 4px rgba(62, 142, 196, 0.3);
+cursor:pointer;
+
+}
+.btn{
+    background-color:rgb(95, 116, 129) ;
+    color:whitesmoke;
+    display:block;
+    width:100%;
+    padding:10px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(145, 112, 41, 0.3);
+    cursor:pointer;
+    
+    }
+.bn:hover{
+filter:brightness(0.9);
+}
+
+.score{
+    color:rgb(25, 25, 143);
+    text-align: right;
+    
+}
