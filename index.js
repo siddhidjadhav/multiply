@@ -21,6 +21,10 @@ if(!score)
 {
     score=0;
 }
+if(!e1)
+{
+    e1="";
+}
 
 scoreE1.innerText=`score: ${score}`
 i2.innerText=`${e1}`
