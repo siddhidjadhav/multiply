@@ -18,6 +18,10 @@ body{
     border-radius: 10px;
     padding: 25px;
     border:solid 3px rgb(7, 66, 95);
+    
+}
+.tohide
+{
     visibility: hidden;
 }
 .form{
